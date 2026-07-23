@@ -1,0 +1,12 @@
+# Protect Environment Variables
+.env
+
+# Ignore Local AI Database
+veda_memory/
+
+# Ignore Python Cache
+__pycache__/
+
+# Ignore Personal Test Files (Optional)
+lecture.pdf
+p.txt

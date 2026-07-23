@@ -1,0 +1,6 @@
+streamlit
+PyMuPDF
+python-dotenv
+google-genai
+chromadb
+supabase
