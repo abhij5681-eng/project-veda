@@ -10,3 +10,4 @@ __pycache__/
 # Ignore Personal Test Files (Optional)
 lecture.pdf
 p.txt
+veda_core.py

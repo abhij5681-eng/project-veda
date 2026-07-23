@@ -541,6 +541,9 @@ else:
                         if new_knowledge:
                             # 🔮 PERSONA: Ready State
                             st.success("✨ The Oracle has mastered the texts! You may now seek its wisdom.")
+                            import time
+                            time.sleep(1)
+                            st.rerun() # <--- FORCE IMMEDIATE UI UPDATE
                 
                 # --- DYNAMIC UI RENDERING ---
             st.caption("Sacred Archives:")
